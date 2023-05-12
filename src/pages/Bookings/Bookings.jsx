@@ -57,7 +57,7 @@ const Bookings = () => {
 
   return (
     <div>
-      <h2 className="text-5xl">Your Bookings: {bookings.length}</h2>
+      <h2 className="text-5xl mb-8">Your Bookings: {bookings.length}</h2>
       <div className="overflow-x-auto w-full">
         <table className="table w-full">
           {/* head */}
